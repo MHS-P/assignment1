@@ -69,3 +69,31 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+.preview .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.preview .text {
+  max-width: 500px;
+}
+.text > p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.preview img {
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
