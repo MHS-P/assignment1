@@ -56,3 +56,16 @@ body {
   display: inline-block;
   margin-top: 10px;
 }
+
+
+.hero {
+  text-align: center;
+}
+.description-section {
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
